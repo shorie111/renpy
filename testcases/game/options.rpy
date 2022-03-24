@@ -14,6 +14,7 @@ init -1 python hide:
     ## cheat using developer tools.
 
     config.developer = True
+   
 
     ## These control the width and height of the screen.
 
@@ -234,7 +235,8 @@ init -1 python hide:
 
     ## Used when the window is hidden.
     config.window_hide_transition = None
-
+    define_config.console=True
+    
 
     #########################################
     ## This is the name of the directory where the game's data is
